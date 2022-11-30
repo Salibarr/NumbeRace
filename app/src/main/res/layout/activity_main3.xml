@@ -11,9 +11,10 @@
         android:id="@+id/blabla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/kanit"
         android:text="Top Scorers"
+        android:textColor="@color/teal_700"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +29,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginBottom="24dp"
         android:gravity="center"
+        android:textColor="@color/white"
         android:background="@drawable/contbtn"
         android:fontFamily="@font/kanit"
         android:padding="10sp"
@@ -44,6 +46,7 @@
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/contbtn"
+        android:textColor="@color/white"
         android:fontFamily="@font/kanit"
         android:gravity="center"
         android:padding="10dp"
@@ -53,36 +56,150 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/kanit"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="Top Players    ||    TAPS  "
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blabla" />
 
-<!--    <TableRow-->
-<!--        android:layout_width="157dp"-->
-<!--        android:layout_height="61dp"-->
-<!--        android:background="@drawable/tablebg"-->
-<!--        android:layout_marginStart="44dp"-->
-<!--        android:layout_marginTop="128dp"-->
-<!--        android:layout_weight="4"-->
-<!--        android:gravity="center_horizontal"-->
-<!--        android:padding="10sp"-->
-<!--        android:text="user1734"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="140dp"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        />-->
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="@font/kanit"
+        android:text="Player1945"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-<!--    <TableRow-->
-<!--        android:layout_width="157dp"-->
-<!--        android:layout_height="61dp"-->
-<!--        android:layout_marginStart="200dp"-->
-<!--        android:layout_marginTop="128dp"-->
-<!--        android:layout_weight="4"-->
-<!--        android:background="@drawable/tablebg"-->
-<!--        android:gravity="center_horizontal"-->
-<!--        android:padding="10sp"-->
-<!--        android:text="user1734"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="140dp"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kanit"
+        android:text="Player1322"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kanit"
+        android:text="Player1734"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="@font/kanit"
+        android:text="1095"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/kanit"
+        android:text="980"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/kanit"
+        android:text="823"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/kanit"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Your Score :"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/kanit"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:text="____________________"
+        android:textColor="@color/teal_700"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

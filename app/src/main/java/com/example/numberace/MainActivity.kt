@@ -12,14 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val cntbtn=findViewById<TextView>(R.id.cntbtn)
-        val username=findViewById<EditText>(R.id.username1)
-        val email=findViewById<EditText>(R.id.email1)
+        val username1=findViewById<EditText>(R.id.username1)
+        val email1=findViewById<EditText>(R.id.email1)
         cntbtn.setOnClickListener {
-            if(username.text.isEmpty() || email.text.isEmpty()) {
+            if(username1.text.isEmpty() || email1.text.isEmpty())
+            {
                 Toast.makeText(this, "Enter Information!", Toast.LENGTH_SHORT).show()
-            }
-            cntbtn.setOnClickListener {
-                startActivity(Intent(this, MainActivity2::class.java))
+            } else{
+                intent = Intent(this, MainActivity2::class.java)
+                intent.putExtra("username123", username1.getText().toString())
+                startActivity(intent)
             }
         }
     }
